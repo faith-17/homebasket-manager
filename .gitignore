@@ -1,0 +1,20 @@
+# Dependencies and local tooling
+node_modules/
+.npm/
+.vscode/
+
+# Local environment values; never commit private credentials
+.env
+.env.*
+!.env.example
+*.local
+secrets/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test/build output
+coverage/
+dist/
